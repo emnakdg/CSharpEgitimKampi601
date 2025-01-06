@@ -68,7 +68,7 @@ namespace CSharpEgitimKampi601
         {
             string id = txtCustomerId.Text;
             Customer customers = customerOperations.getCustomerById(id);
-            dataGridView1 .DataSource = new List<Customer> {customers};
+            dataGridView1.DataSource = new List<Customer> { customers };
         }
     }
 }
